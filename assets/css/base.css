@@ -1,0 +1,32 @@
+:root{
+    --primary-color: #E5000E;
+    --white-color: #fff;
+    --black-color:#000;
+    --text-color: #3D3D3D;
+    --border-color:#dbdbdb;
+    --bluedark-color:#020070;
+
+    --nav-height:34px;
+    --header-height:120px;
+    --search-height: calc(var(--header-height) - var(--nav-height));
+    --header-sort-bar-height:46px;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; /* suy ra 16px = 1.6rem ,12px = 1.2rem */
+    line-height: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.mg-t-60{
+    margin-top: 60px;
+}
+
+.mg-t-120{
+    margin-top: 120px;
+}
